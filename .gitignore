@@ -1,2 +1,6 @@
 .metals
 .scalafmt.conf
+.target
+.idea
+Scala_Applied_Udemy_Course/.idea
+Scala_Applied_Udemy_Course/**/target
