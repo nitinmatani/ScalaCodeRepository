@@ -21,8 +21,8 @@ object PartialFunctionsWithCollectFunc extends App {
 // Example 2
 
   sealed trait SuperType // `sealed` modifier allows inheritance within current build-unit only
-  case class A(value: Int) extends SuperType
   case class B(text: String) extends SuperType
+  case class A(value: Int) extends SuperType
   case object C extends SuperType
 
   val input: Seq[SuperType] = Seq(A(5), B("hello"), C, A(25), B(""))
